@@ -45,27 +45,3 @@ const from6 = "AA";
 const to6 = "MID";
 const reConfig6 = canReconfigure(from6, to6); // false -> no tiene la misma longitud
 console.log(reConfig6);
-
-
-
-
-/* const equivalences = [];
-  for (let i = 0; i < from.length; i++) {
-    const equivalence = equivalences.find((relation) => {
-      const letters = [from[i], to[i]];
-      return (
-        letters.includes(relation.setting1) ||
-        letters.includes(relation.setting2)
-      );
-    });
-    if (!equivalence) {
-      equivalences.push({ setting1: from[i], setting2: to[i] });
-    } else if (
-      !(
-        (equivalence.setting1 === from[i] && equivalence.setting2 === to[i]) ||
-        (equivalence.setting1 === to[i] && equivalence.setting2 === from[i])
-      )
-    ) {
-      return false;
-    }
-  } */
